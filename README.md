@@ -3,8 +3,10 @@ A small header only c++ library for matrix manipulation with run-time concatenat
 
 Supports basic arithmetic **(+,-,/,\*)** as well as matrix-matrix concatenation
 
-Horizontal concatenation: **(A || B)**(yes, this has lot of overhead.)
+Horizontal concatenation: **(A || B)**
 Vertical concatenation: **(A | B)**
+
+Note: Yes, concatenation has a overhead.
 
 And also supports some matrix transformations
 * **LU decomposition, determinant, inverse, transpose**.
